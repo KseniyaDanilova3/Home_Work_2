@@ -6,8 +6,9 @@ int number = Convert.ToInt32(Console.ReadLine());
 string numberA = Convert.ToString(number);
 if (numberA.Length > 2)
 {
-  Console.WriteLine($"третья цифра числа:  {numberA[2]}");
+    Console.WriteLine($"третья цифра числа:  {numberA[2]}");
 }
-else {
-  Console.WriteLine("третьей цифры нет");
+else
+{
+    Console.WriteLine("третьей цифры нет");
 }
