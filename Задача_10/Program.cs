@@ -4,4 +4,4 @@
 Console.Write("Введите любое трехзначное число: ");
 int number = int.Parse(Console.ReadLine());
 
- Console.Write($"{(number / 10) % 10}");
+Console.Write($"{(number / 10) % 10}");
