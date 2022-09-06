@@ -9,23 +9,25 @@ string day = Console.ReadLine();
 
 int number = int.Parse(day);
 
-if (number == 6 || number == 7) {
-
-    Console.WriteLine("Ура, это выходной! :)");
-    
-}
-
-else if (7 < number || number < 1) {
-
-    Console.WriteLine("Такого дня нет .. ");
-    
-}
-
-else 
+if (number == 6 || number == 7)
 {
 
-  Console.WriteLine("Увы, это не выходной! :(");
-    
+    Console.WriteLine("Ура, это выходной! :)");
+
+}
+
+else if (7 < number || number < 1)
+{
+
+    Console.WriteLine("Такого дня нет .. ");
+
+}
+
+else
+{
+
+    Console.WriteLine("Увы, это не выходной! :(");
+
 }
 
 
